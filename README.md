@@ -7,7 +7,7 @@ reverse Geocoding the location provided by the user by Making a Long click on th
 =>long click on the map, google-maps-api calls onMapLongClick method which passes the Latitude and Longitude arguments to a method which
 REVERSE-Geocode and returns back the Address Object.
 
-=>Using the Address Object we calculate the Country-Code of the location and passed down this information in the INTENT object which takes to the next activity.
+=>Using the Address Object we calculate the Country-Code of the location and passed down this information in the INTENT object which takes us to the next activity.
 
 =>Retrofit client uses the country-code to fetch the data of that particualar country and then With the help of Recycler-View , We display the fetched result to the user.
 
